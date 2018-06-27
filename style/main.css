@@ -1,20 +1,18 @@
 ﻿body {
     background-image: url('background.jpg');
-    /*margin-top: 0px;*/
-    /*margin-left: 23%;*/
-    /*width: 960px;*/
     height: auto;
-    /*border: 2px solid white;*/
-}
+  }
 
 .main-content {
   margin: 0 auto;
   border: 0px solid black;
 }
+
   .header {
-    background-image: url("header-img.jpg");
-    height: 151px;
-    /*border: 2px solid black;*/
+    background-color:#036564;
+    height: 160px;
+
+    border: 18px solid black;
 }
 
 .header h1 {
@@ -37,12 +35,14 @@
 .naglowek_menu {
     font-family: Montserrat;
     font-size: 30px;
+    color:#191126;
     float: none;
     /*margin-left: 50px;*/
 }
 .element_menu {
     font-family: Montserrat;
     font-weight: lighter;
+    color:#191126;
     font-size: 20px;
 }
 .podelement_menu {
@@ -115,7 +115,8 @@
 }
 .zacmienie {
     font-family: sans-serif;
-    border: 1px solid gray;
+    border: 1px solid black;
+    color:black;
     margin-left: 4%;
 }
 th {
@@ -134,8 +135,9 @@ td {
 .naglowek_tekstu {
     font-family: Montserrat;
     font-size: 40px;
+    text-align: center;
     float: none;
-    margin-left: 50px;
+    color:white
 }
 .tekst {
     font-family: Montserrat;
@@ -163,6 +165,8 @@ td {
     font-family: Montserrat;
     font-weight: lighter;
     text-align: justify;
+    color: black;
+    margin-bottom: 20px;
 }
 .stopka {
     background-color: #036564;

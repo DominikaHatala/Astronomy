@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
@@ -9,78 +9,126 @@
 
     <link href="style/main.css" rel="stylesheet" type="text/css" />
     <link href="style/Montserrat.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="assets\bootstrap\css\bootstrap.min.css">
 
 
 </head>
 <body>
-    <div class="header"></div>
+  <div class="container main-content">
+    <div class="row header">
 
-    <div class="srodek">
-        <div class="menu">
-            <p class="naglowek_menu">Menu</p>
-            <ul>
-                <li> <a href="index.html"><p class="element_menu">Strona Główna</p></a></li>
-                <li>
-                    <p class="element_menu">Zaćmienia</p>
-                    <ul>
-                        <li><a href="zacmienia_ksiezyca.html"><p class="podelement_menu">Zaćmienie Księżyca</p></a></li>
-                        <li><a href="zacmienia_slonca.html"><p class="podelement_menu">Zaćmienie Słońca</p></a></li>
-                    </ul>
-                </li>
-                <li><a href="galeria.html"><p class="element_menu">Galeria</p></a></li>
-                <li><a href="stargazing.html"><p class="element_menu">Stargazing</p></a></li>
-                <li><a href="wasze_obserwacje.html"><p class="element_menu">Wasze Obserwacje</p></a></li>
-            </ul>
-        </div>
+      <div class="col-md-12 text-center">
+        <h1>Astronomia - moja pasja</h1>
+      </div>
 
-        <div class="tresc">
-            <p class="naglowek_tekstu">Wasze obserwacje</p>
-            <p class="tekst">
-                Kiedy ostatnio widzieliscie spadającą gwiazdę? Meteor? Może byliście świadkiem rzadkiego przelotu komety?
-                Podzielcie się ze mną swoimi obserwacjami!
-            </p> <br /> <br />
-            <div class="formularz">
-                <form method="get">
-                    <label>Imie:&nbsp;&nbsp;<input type="text" name="imie"></label><br />
-                    <label>Nazwisko:&nbsp;&nbsp;<input type="text" name="nazwisko" /></label> <br />
-                    <label>Data obserwacji:&nbsp;&nbsp;&nbsp;<input type="date" name="data" /></label> <br />
-                    <label>Czas obserwacji:&nbsp;&nbsp;&nbsp;<input type="time" name="czas" /></label> <br />
-                    Kontynent:
-                    <select>
-                        <option>Afryka</option>
-                        <option>Ameryka Północna</option>
-                        <option>Ameryka Południowa</option>
-                        <option>Azja</option>
-                        <option>Australia</option>
-                        <option>Antarktyda</option>
-                        <option>Europa</option>
-                    </select> <br />
-                    Co zaobesrwowałeś? <br />
-                    <input type="radio" name="obserwacja" value="kometa"> Kometa
-                    <br>
-                    <input type="radio" name="obserwacja" value="meteor"> Meteor
-                    <br>
-                    <input type="radio" name="obserwacja" value="gwiazda"> Spadająca Gwiazda
-                    <br>
-                    <input type="radio" name="obserwacja" value="inne"> Inne
-                    <br>
-                    Coś więcej: <br />
-                    <textarea cols="50" rows="10"></textarea><br />
-                    Email kontaktowy:
-                    <input type="email" name="email">  <br />
-                    <input type="submit" value="Wyślij" />
-                    <input type="reset" value="Wyczyść" />
-                </form>
-            </div>
-            <p class="tekst">
-                Wszelkie pytania proszę przesyłać na: <a href="mailto:doniahatala@gmail.com">doniahatala@gmail.com</a>
-            </p>
-        </div>
+    </div> <!-- Header end -->
+
+  <div class="srodek">
+
+      <nav class="navbar navbar-reverse" id="mobile-nav">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">NAWIGACJA</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- <a class="navbar-brand" href="#">Brand</a> -->
     </div>
 
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li> <a href="index.html"><p class="element_menu">Strona Główna</p></a></li>
+        <li>
+            <p class="element_menu">Zaćmienia</p>
+            <ul>
+                <li><a href="zacmienia_ksiezyca.html"><p class="podelement_menu">Zaćmienie Księżyca</p></a></li>
+                <li><a href="zacmienia_slonca.html"><p class="podelement_menu">Zaćmienie Słońca</p></a></li>
+            </ul>
+        </li>
+        <li><a href="galeria.html"><p class="element_menu">Galeria</p></a></li>
+        <li><a href="stargazing.html"><p class="element_menu">Stargazing</p></a></li>
+        <li><a href="wasze_obserwacje.html"><p class="element_menu">Wasze Obserwacje</p></a></li>
+      </ul>
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    <div class="menu">
+        <p class="naglowek_menu">Menu</p>
+        <ul>
+            <li> <a href="index.html"><p class="element_menu">Strona Główna</p></a></li>
+            <li>
+                <p class="element_menu">Zaćmienia</p>
+                <ul>
+                    <li><a href="zacmienia_ksiezyca.html"><p class="podelement_menu">Zaćmienie Księżyca</p></a></li>
+                    <li><a href="zacmienia_slonca.html"><p class="podelement_menu">Zaćmienie Słońca</p></a></li>
+                </ul>
+            </li>
+            <li><a href="galeria.html"><p class="element_menu">Galeria</p></a></li>
+            <li><a href="stargazing.html"><p class="element_menu">Stargazing</p></a></li>
+            <li><a href="wasze_obserwacje.html"><p class="element_menu">Wasze Obserwacje</p></a></li>
+        </ul>
+    </div>
+
+    <div class="tresc">
+        <p class="naglowek_tekstu">Wasze obserwacje</p>
+        <p class="tekst">
+            Kiedy ostatnio widzieliscie spadającą gwiazdę? Meteor? Może byliście świadkiem rzadkiego przelotu komety?
+            Podzielcie się ze mną swoimi obserwacjami!
+        </p> <br /> <br />
+        <div class="formularz">
+            <form method="get">
+                <label>Imie:&nbsp;&nbsp;<input type="text" name="imie"></label><br />
+                <label>Nazwisko:&nbsp;&nbsp;<input type="text" name="nazwisko" /></label> <br />
+                <label>Data obserwacji:&nbsp;&nbsp;&nbsp;<input type="date" name="data" /></label> <br />
+                <label>Czas obserwacji:&nbsp;&nbsp;&nbsp;<input type="time" name="czas" /></label> <br />
+                Kontynent:
+                <select>
+                    <option>Afryka</option>
+                    <option>Ameryka Północna</option>
+                    <option>Ameryka Południowa</option>
+                    <option>Azja</option>
+                    <option>Australia</option>
+                    <option>Antarktyda</option>
+                    <option>Europa</option>
+                </select> <br />
+                Co zaobesrwowałeś? <br />
+                <input type="radio" name="obserwacja" value="kometa"> Kometa
+                <br>
+                <input type="radio" name="obserwacja" value="meteor"> Meteor
+                <br>
+                <input type="radio" name="obserwacja" value="gwiazda"> Spadająca Gwiazda
+                <br>
+                <input type="radio" name="obserwacja" value="inne"> Inne
+                <br>
+                Coś więcej: <br />
+                <textarea cols="50" rows="10"></textarea><br />
+                Email kontaktowy:
+                <input type="email" name="email">  <br />
+                <input type="submit" value="Wyślij" />
+                <input type="reset" value="Wyczyść" />
+            </form>
+        </div>
+        <p class="tekst">
+            Wszelkie pytania proszę przesyłać na: <a href="mailto:doniahatala@gmail.com">doniahatala@gmail.com</a>
+        </p>
+    </div>
+  </div>
     <div class="stopka">
         <p class="autorstwo">&copy; Dominika Hatała</p> <br />
-        <p class="zrodla">Źródła: <a href="https://commons.wikimedia.org/wiki/">commons.wikimedia.org</a>, <a href="http://www.nasa.gov">nasa.gov</a>, <a href="http://www.learner.org">learner.org</a></p>
+        <p class="zrodla">Źródła:
+         <a href="https://commons.wikimedia.org/wiki/">commons.wikimedia.org</a>,
+         <a href="http://www.nasa.gov">nasa.gov</a>,
+         <a href="http://www.learner.org">learner.org</a>,
+         <a href="http://www.teleskopy.pl">teleskopy.pl</a></p>
     </div>
+  </div>
+
+<script src="assets\js\jquery.min.js"></script>
+<script src="assets\bootstrap\js\bootstrap.min.js"></script>
 </body>
-</html> 
+</html>
